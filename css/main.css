@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: #85792C;
+  margin: 0;
+}
+
+body #bg {
+  -webkit-clip-path: polygon(100% 0, 100% 87%, 22% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 87%, 22% 100%, 0 100%, 0 0);
+  background-color: #C9BE75;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+/*# sourceMappingURL=main.css.map */

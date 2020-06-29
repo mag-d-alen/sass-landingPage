@@ -1,0 +1,21 @@
+$colors: (
+    primary: #C9BE75,
+    dark: #3D3602,
+    accent:#85792C
+);
+body, html{
+    height: 100%;
+}
+body {
+    background-color: map-get($colors, accent);
+    margin:0;
+   
+    #bg {
+        clip-path: polygon(100% 0, 100% 87%, 22% 100%, 0 100%, 0 0);
+        background-color: map-get($colors, primary); 
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+}
